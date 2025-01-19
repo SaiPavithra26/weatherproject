@@ -19,7 +19,6 @@
     {% endif %}
     <div class="container">         
         <h1>Weather app</h1>
-    
         <form method="POST">
             {% csrf_token %}
             <input type="text" placeholder="Enter city" name="city">
@@ -37,6 +36,8 @@
                 <div class="condition">
                     <p>{{ description }}</p>
                     <p>{{ day }}</p>
+                    <h1>hello</h1>
+
                 </div>
             </div>
         </div>
